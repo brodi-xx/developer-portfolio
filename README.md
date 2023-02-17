@@ -5,8 +5,8 @@ In this challenge, I wanted to create a portfolio that represented my work and s
 <ul>Social icons with clickable links to my Linkedin and GitHub pages</ul>
 <ul>A website that resizes the page or view the site on various screens and devices. Images below with 3 different sizing examples</ul>
 <br>
-<img src="https://github.com/brodi-xx/developer-portfolio/blob/main/assets/images/Screen%20Shot%202023-02-16%20at%2010.58.36%20PM.png">
+<img src="/Users/brodi/bootcamp/challenges/developer-portfolio/assets/images/image1.png">
 
-<img src="https://github.com/brodi-xx/developer-portfolio/blob/main/assets/images/Screen%20Shot%202023-02-16%20at%2011.01.56%20PM.png">
+<img src="/Users/brodi/bootcamp/challenges/developer-portfolio/assets/images/image2.png">
 
-<img src="https://github.com/brodi-xx/developer-portfolio/blob/main/assets/images/Screen%20Shot%202023-02-16%20at%2011.02.17%20PM.png">
+<img src="/Users/brodi/bootcamp/challenges/developer-portfolio/assets/images/image3.png">
