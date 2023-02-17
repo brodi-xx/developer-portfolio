@@ -1,2 +1,6 @@
-# developer-portfolio
-My first attempt at a person dev portfolio 
+# Brodi's Developer-Portfolio
+In this challenge, I wanted to create a portfolio that represented my work and skills developed so far of HTML and CSS.
+<ul>A section about me
+<ul>A section that contains my contact info
+<ul>Social icons with clickable links to my Linkedin and GitHub pages
+<ul>A website that resizes the page or view the site on various screens and devices

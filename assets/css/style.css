@@ -3,6 +3,7 @@
     --white: whitesmoke;
     --blackbackground: #000;
     --green: #7ac88e;
+    font-family: 'Courier New', Courier, monospace;
 }
 * {
     font-family: 'Courier New', Courier, monospace;
@@ -32,6 +33,7 @@ p {
     border-style: solid;
     border-color: aliceblue;
     border-width: 3px;
+    margin-bottom: 3rem;
 }
 /* Universal selectors end here */
 
@@ -109,7 +111,7 @@ a {
     position:static;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content:space-evenly;
     gap: 28.5%;
     padding-top: 2%;
     
@@ -173,6 +175,7 @@ a {
     border-style: solid;
     border-color: var(--green);
     border-width: 2px;
+    padding: 2rem;
 }
 
 #contact-me {
@@ -193,12 +196,15 @@ a {
     text-align: center;
     border-style: solid;
     border-width: 3px;
+    margin: 3rem;
 }
 
 /* Contact me section */
 
 .section h3{
     color: var(--green);
+    font-size: x-large;
+
 }
 
 .contact
@@ -275,19 +281,58 @@ footer section{
 }
 /* foot ends */
 
-/* media settings
-
-@media screen and (max-width: 992px){
-    columns: {
-        width:50%;
+/* media sizing for
+- Small ≥576px
+- Medium ≥768px
+- Large	≥992px
+- Extra large	≥1200px
+- Extra extra large	≥1400px */
+@media screen and (max-width: 1400px){
+    .about-me-box h2 {
+        font-size: 31px;
+        margin-left: 60.05px;
+    }
+    .about-me p {
+      margin-right: 60.05px;  
+    }
+    } 
+@media screen and (max-width: 1200px){
+    .about-me-box h2 {
+        font-size: 35px;
+        margin-right: 60px;
+    }
+    .about-me p {
+      margin-right: 60px;  
+    }
     }    
-}
-
-@media screen and (max-width: 643px){
-    img: {
-        width: 20%;
-        height: auto;
+@media screen and (max-width:992px){
+    .about-me-box h2 {
+        font-size: 25px;
+        margin-left: 49.6px;
+    }
+    .about-me p {
+        margin-right: 49.60px;
     }
 }
-
-*/
+@media screen and (max-width:768px){
+    .about-me-box h2 {
+        font-size: 15px;
+        margin-left: 38.39px;
+    }
+    .about-me p {
+        margin-right: 38.39px;
+    }
+}
+@media screen and (max-width:576px){
+    .about-me-box h2 {
+        font-size: 8px;
+        margin-left: 28.79px;
+    }
+    .about-me p {
+        margin-right: 28.79px;
+        font-size: 16px;
+    }
+    footer h3{
+        font-size: 15px;
+    }
+}  
