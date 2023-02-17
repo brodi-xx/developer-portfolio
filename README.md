@@ -7,6 +7,6 @@ In this challenge, I wanted to create a portfolio that represented my work and s
 <br>
 <img src="https://github.com/brodi-xx/developer-portfolio/blob/main/assets/images/Screen%20Shot%202023-02-16%20at%2010.58.36%20PM.png">
 
-<img src="/Users/brodi/bootcamp/challenges/developer-portfolio/assets/images/Screen Shot 2023-02-16 at 11.01.56 PM.png">
+<img src="https://github.com/brodi-xx/developer-portfolio/blob/main/assets/images/Screen%20Shot%202023-02-16%20at%2011.01.56%20PM.png">
 
-<img src="/Users/brodi/bootcamp/challenges/developer-portfolio/assets/images/Screen Shot 2023-02-16 at 11.02.17 PM.png">
+<img src="https://github.com/brodi-xx/developer-portfolio/blob/main/assets/images/Screen%20Shot%202023-02-16%20at%2011.02.17%20PM.png">
