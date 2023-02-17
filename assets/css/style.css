@@ -1,0 +1,36 @@
+:root{
+    
+    --white: whitesmoke;
+    --blackbackground: #000;
+    --green: #7ac88e;
+}
+* {
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Element selectors */
+
+body {
+background-color: var(--blackbackground);
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+
+p { 
+    display: block;
+    font-size:large;
+    color: var(--green);
+    padding-top: 15px;
+    width: 550px;
+    height: 175px;
+    text-align: center;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 3px;
+}
+/* Universal selectors end here */
