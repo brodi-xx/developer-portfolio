@@ -101,3 +101,96 @@ a {
 .hoover-grow:active {
     transform: scale(1.1);
 }
+
+/* Body begins */
+
+/* Intro article starts here */
+.about-me{
+    position:static;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 28.5%;
+    padding-top: 2%;
+    
+    
+} 
+
+.about-me h2{
+    font-size: 60px;
+    color: var(--green);
+    padding: 10px;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    
+}
+.about-me-box{
+    padding: 10px;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.about-me p{
+    background-color: var(--green);
+    color: var(--blackbackground);
+    padding-bottom: 2%;
+}
+
+
+
+
+/* Info Section - */
+
+.project
+
+.project-box {
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    
+}
+#info-section{
+    background-color: var(--blackbackground);
+    color: var(--green);
+    display: flex;
+    flex-direction: column;
+    /* Centers along the main axis determined by flex-direction */
+    justify-content: space-between;
+    /* Centers along the opposite axis */
+    align-items: center;
+    width: 90%;
+    /* Uses the height of the viewport */
+    height: 2000px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: var(--green);
+    border-width: 2px;
+}
+
+#contact-me {
+    color:var(--green);
+    padding: 15px
+}
+
+#name-text {
+    color: var(--green);
+}
+
+#email-text {
+    color: var(--green);
+}
+.project-box {
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+}
